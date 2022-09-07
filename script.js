@@ -36,7 +36,20 @@ fetch ("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/servic
     const uvindex = document.createElement("p")
     uvindex.textContent = `UV index: ${data.currentConditions.uvindex}`
     container.appendChild(uvindex)
+
+
+
+    const btn = document.createElement("button")
+    btn.textContent = "REFRESH"
+    container.appendChild(btn)
+
+    const update = document.createElement("p")
+    update.textContent = `Updated 3 minute(s) ago`
+    update.classList.add("update")
+    container.appendChild(update)
 })
+
+
 
 
 

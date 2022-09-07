@@ -30,3 +30,23 @@ p {
     font-size: .8rem;
     margin-bottom: 2px;
 }
+
+button {
+    margin-top: 40px;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: #b9b9b9;
+}
+
+button:hover {
+    background: #a1a1a1;
+}
+
+.update {
+    display: inline;
+    font-style: italic;
+    margin-left: 5px;
+}
