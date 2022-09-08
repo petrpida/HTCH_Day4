@@ -45,7 +45,7 @@ button:hover {
     background: #a1a1a1;
 }
 
-.update {
+#update {
     display: inline;
     font-style: italic;
     margin-left: 5px;
